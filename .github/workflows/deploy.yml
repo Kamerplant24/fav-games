@@ -17,12 +17,12 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 24   # Use Node24 to avoid deprecation warnings
+          node-version: 24
 
       - run: npm ci
 
       - name: Build site
-        run: npx vite build   # Use npx to avoid Vite permission issues
+        run: npx vite build
 
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -31,5 +31,7 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    environment:         # <-- REQUIRED
+      name: github-pages
     steps:
       - uses: actions/deploy-pages@v4
