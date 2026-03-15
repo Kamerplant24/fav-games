@@ -28,7 +28,7 @@ export const pagesConfig: PageItem[] = [
   {
     type: 'frontpage',
     background: '#000000',
-    profilePicture: 'images/crab-rave.gif', // Default profile picture
+    profilePicture: '/fav-games/images/crab-rave.gif', // Default profile picture
     title: 'Mi Games',
     description: 'mijn favo games',
   },
