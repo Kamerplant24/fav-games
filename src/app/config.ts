@@ -273,7 +273,7 @@ export const pagesConfig: PageItem[] = [
         title: 'Marvels Spider-Man Remastered',
         category: 'zit goed in elkaar maar echt een rare story met vlakke karakters',
         rating: 6,
-        iconPath: '/fav-games/images/spidermanremaster.png', // Empty = use default Ethereum ico
+        iconPath: '/fav-games/images/spidermanremaster.png', // Empty = use default Ethereum ic
       },
       {
         id: 24,
