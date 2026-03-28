@@ -271,9 +271,16 @@ export const pagesConfig: PageItem[] = [
       {
         id: 23,
         title: 'Marvels Spider-Man Remastered',
+        category: 'zit goed in elkaar maar echt een rare story met vlakke karakters',
+        rating: 6,
+        iconPath: '/fav-games/images/spidermanremaster.png', // Empty = use default Ethereum icon
+      },
+      {
+        id: 24,
+        title: 'Marvels Spider-Man Miles Morales',
         category: 'aant spelen',
         rating: 5,
-        iconPath: '/fav-games/images/spidermanremaster.png', // Empty = use default Ethereum icon
+        iconPath: '/fav-games/images/marvelspidermanmilesmorales.jpg',
       },
     ]
   },
