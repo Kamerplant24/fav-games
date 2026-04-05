@@ -138,7 +138,7 @@ export const pagesConfig: PageItem[] = [
     ]
   },
   {
-    title: "Yo ho",
+    title: "SWTD",
     background: "#000000", // black
     tilesPerPage: 1,
     games: [
