@@ -266,7 +266,7 @@ export const pagesConfig: PageItem[] = [
   {
     title: "Spider-Man Games",
     background: "#000000", // black
-    tilesPerPage: 2,
+    tilesPerPage: 3,
     games: [
       {
         id: 23,
