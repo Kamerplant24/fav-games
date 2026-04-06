@@ -282,6 +282,13 @@ export const pagesConfig: PageItem[] = [
         rating: 7,
         iconPath: '/fav-games/images/marvelspidermanmilesmorales.jpg',
       },
+      {
+        id: 25,
+        title: 'Marvels Spider-Man 2',
+        category: 'aant spele',
+        rating: 5,
+        iconPath: '/fav-games/images/marvelsspiderman2.jpg',
+      },
     ]
   },
 ];
