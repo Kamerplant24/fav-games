@@ -278,8 +278,8 @@ export const pagesConfig: PageItem[] = [
       {
         id: 24,
         title: 'Marvels Spider-Man Miles Morales',
-        category: 'aant spelen',
-        rating: 5,
+        category: 'betere combat dan eerste game, iets betere story',
+        rating: 7,
         iconPath: '/fav-games/images/marvelspidermanmilesmorales.jpg',
       },
     ]
