@@ -173,8 +173,8 @@ export const pagesConfig: PageItem[] = [
       {
         id: 15,
         title: 'Resident Evil 7: Biohazard',
-        category: 'zomer 2025 vibes, mooie graphics, leuk, kort',
-        rating: 8.5,
+        category: 'ok story, goed einde, goede graphics',
+        rating: 7,
         iconPath: '/fav-games/images/residentevil7.jpg', // Empty = use default Ethereum icon
       },
     ]
@@ -187,7 +187,7 @@ export const pagesConfig: PageItem[] = [
       {
         id: 16,
         title: 'The Evil Within 2',
-        category: 'zomer 2025 vibes, mooie graphics, leuk, kort',
+        category: 'soms oprecht eng, nice einde, nice story, beste bosses',
         rating: 8.5,
         iconPath: '/fav-games/images/evilwithin2.jpg', // Empty = use default Ethereum icon
       },
@@ -216,14 +216,14 @@ export const pagesConfig: PageItem[] = [
         id: 18,
         title: 'It Takes Two',
         category: 'super nice minigames, puzzels maar tering rare story(niet echt zo goed gevolgd), wel heel leuk om samen te spelen',
-        rating: 8.8,
+        rating: 8.5,
         iconPath: '/fav-games/images/ittakestwo.jpg', // Empty = use default Ethereum icon
       },
       {
         id: 19,
         title: 'A Way Out',
         category: 'een beetje een klassieker, sterke story, leuk om samen te doen',
-        rating: 8.8,
+        rating: 8.5,
         iconPath: '/fav-games/images/awayout.jpg',
       },
     ]
