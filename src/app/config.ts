@@ -131,7 +131,7 @@ export const pagesConfig: PageItem[] = [
       {
         id: 12,
         title: 'Borderlands 3',
-        category: 'beste combat, sluipen, goeie story',
+        category: 'nice artstyle, maar na een tijd een beetje eentonig met gewoon van boss naar boss te gaan',
         rating: 6,
         iconPath: '/fav-games/images/borderlands3.jpg',
       },
