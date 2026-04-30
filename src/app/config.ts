@@ -70,7 +70,7 @@ export const pagesConfig: PageItem[] = [
         title: 'LEGO Marvels Avengers',
         category: 'eerste open world game hit toch wel wat different',
         rating: 9.8,
-        iconPath: '/fav-games/images/legomarvelavengers.jpg',
+        iconPath: '/fav-games/images/legomarvelavengers.png',
       },
     ]
   },
