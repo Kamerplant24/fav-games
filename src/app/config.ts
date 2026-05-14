@@ -42,7 +42,7 @@ export const pagesConfig: PageItem[] = [
         title: 'Pokkén Tournament',
         category: 'de og pokemon game',
         rating: 9.8,
-        iconPath: '/fav-games/images/pokkentournament.jpg', // Empty = use default Ethereum icon
+        iconPath: '/fav-games/images/pokkentournament.jpg',
       },
       {
         id: 2,
