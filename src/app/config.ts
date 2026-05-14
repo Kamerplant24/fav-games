@@ -98,7 +98,7 @@ export const pagesConfig: PageItem[] = [
         title: 'Tomb Raider',
         category: 'beste combat, sluipen, goeie story',
         rating: 9,
-        iconPath: '/fav-games/images/tombraider.jpg', // Empty = use default Ethereum icon
+        iconPath: '/fav-games/images/tombraider.jpg',
       },
       {
         id: 9,
