@@ -105,7 +105,7 @@ export const pagesConfig: PageItem[] = [
         title: 'Rise of the Tomb Raider',
         category: 'beste combat, sluipen, goeie story',
         rating: 9,
-        iconPath: '/fav-games/images/riseofthetombraider.jpg',
+        iconPath: '/fav-games/images/riseofthetombraider.png',
       },
       {
         id: 10,
