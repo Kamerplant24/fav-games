@@ -285,8 +285,8 @@ export const pagesConfig: PageItem[] = [
       {
         id: 25,
         title: 'Marvels Spider-Man 2',
-        category: 'aant spele',
-        rating: 5,
+        category: 'er zijn 2 stories naast elkaar dus nooit saai, maar voelt wel soms alsof gebeurtenissen niet echt veel gewicht hebben in het verhaal, wel goed en spannend einde',
+        rating: 6.7,
         iconPath: '/fav-games/images/marvelsspiderman2.jpg',
       },
     ]
