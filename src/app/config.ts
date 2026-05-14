@@ -49,7 +49,7 @@ export const pagesConfig: PageItem[] = [
         title: 'Poképark',
         category: 'gewoon een klassieker',
         rating: 9,
-        iconPath: '/fav-games/images/pokepark.jpg',
+        iconPath: '/fav-games/images/pokepark.png',
       },
       {
         id: 3,
