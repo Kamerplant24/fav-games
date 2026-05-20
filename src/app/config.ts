@@ -300,7 +300,7 @@ export const pagesConfig: PageItem[] = [
         id: 26,
         title: 'Road 96',
         category: 'soms wel goed, beetje firewatch vibe, oldschool graphics, maar sommige dingen aan de story kloppen gewoon niet',
-        rating: 6,
+        rating: 5.9,
         iconPath: '/fav-games/images/road96.jpg', // Empty = use default Ethereum ic
       },
     ]
