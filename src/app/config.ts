@@ -90,7 +90,7 @@ export const pagesConfig: PageItem[] = [
   },
   {
     title: "Tomb Raider Trilogy",
-    background: "#000000", // black
+    background: "#000000",
     tilesPerPage: 3,
     games: [
       {
