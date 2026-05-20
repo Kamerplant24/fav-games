@@ -34,7 +34,7 @@ export const pagesConfig: PageItem[] = [
   },
   {
     title: "Wii U",
-    background: "#000000", // black
+    background: "#000000",
     tilesPerPage: 5,
     games: [
       {
