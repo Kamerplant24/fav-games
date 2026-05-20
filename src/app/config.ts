@@ -291,4 +291,18 @@ export const pagesConfig: PageItem[] = [
       },
     ]
   },
+  {
+    title: "Road 96",
+    background: "#000000", // black
+    tilesPerPage: 1,
+    games: [
+      {
+        id: 26,
+        title: 'Road 96',
+        category: 'soms wel goed, beetje firewatch vibe, oldschool graphics, maar sommige dingen aan de story kloppen gewoon niet',
+        rating: 6,
+        iconPath: '/fav-games/images/road96.jpg', // Empty = use default Ethereum ic
+      },
+    ]
+  },
 ];
