@@ -315,7 +315,7 @@ export const pagesConfig: PageItem[] = [
         title: 'Far Cry 6',
         category: 'aant spelen',
         rating: 5,
-        iconPath: '/fav-games/images/farcry6.jpg', // Empty = use default Ethereum ic
+        iconPath: '/fav-games/images/farcry6.png', // Empty = use default Ethereum ic
       },
     ]
   },
