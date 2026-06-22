@@ -305,4 +305,18 @@ export const pagesConfig: PageItem[] = [
       },
     ]
   },
+  {
+    title: "Far Cry",
+    background: "#000000", // black
+    tilesPerPage: 1,
+    games: [
+      {
+        id: 26,
+        title: 'Far Cry 6',
+        category: 'aant spelen',
+        rating: 5,
+        iconPath: '/fav-games/images/farcry6.jpg', // Empty = use default Ethereum ic
+      },
+    ]
+  },
 ];
