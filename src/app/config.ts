@@ -279,7 +279,7 @@ export const pagesConfig: PageItem[] = [
         id: 24,
         title: 'Marvels Spider-Man Miles Morales',
         category: 'betere combat dan eerste game, iets betere story',
-        rating: 7,
+        rating: 6.9,
         iconPath: '/fav-games/images/marvelspidermanmilesmorales.jpg',
       },
       {
@@ -313,8 +313,8 @@ export const pagesConfig: PageItem[] = [
       {
         id: 26,
         title: 'Far Cry 6',
-        category: 'aant spelen',
-        rating: 5,
+        category: 'super mooie graphics en wereld en oprecht leuke gameplay(amigos en autos), matige algemene story en slecht einde(gewoon waarom?????) ',
+        rating: 7.2,
         iconPath: '/fav-games/images/farcry6.png', // Empty = use default Ethereum ic
       },
     ]
