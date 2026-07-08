@@ -76,7 +76,7 @@ export const pagesConfig: PageItem[] = [
   },
   {
     title: "Bioshock",
-    background: "#000000", // black
+    background: "#000000",
     tilesPerPage: 1,
     games: [
       {
@@ -118,7 +118,7 @@ export const pagesConfig: PageItem[] = [
   },
   {
     title: "33",
-    background: "#000000", // black
+    background: "#000000",
     tilesPerPage: 2,
     games: [
       {
@@ -126,7 +126,7 @@ export const pagesConfig: PageItem[] = [
         title: 'Fallout 3',
         category: 'leuk idee, grote map maar ben er halverwege mee gestopt omdat het saaie story had',
         rating: 4,
-        iconPath: '/fav-games/images/fallout3.png', // Empty = use default Ethereum icon
+        iconPath: '/fav-games/images/fallout3.png',
       },
       {
         id: 12,
@@ -139,7 +139,7 @@ export const pagesConfig: PageItem[] = [
   },
   {
     title: "SWTD",
-    background: "#000000", // black
+    background: "#000000",
     tilesPerPage: 1,
     games: [
       {
@@ -147,13 +147,13 @@ export const pagesConfig: PageItem[] = [
         title: 'Still Wakes the Deep',
         category: 'toen net uitgekomen, nice story, goede graphics ',
         rating: 8,
-        iconPath: '/fav-games/images/stillwakesthedeep.jpg', // Empty = use default Ethereum icon
+        iconPath: '/fav-games/images/stillwakesthedeep.jpg',
       },
     ]
   },
   {
     title: "Firewatch",
-    background: "#000000", // black
+    background: "#000000",
     tilesPerPage: 1,
     games: [
       {
