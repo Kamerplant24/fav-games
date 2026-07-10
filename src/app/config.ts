@@ -319,4 +319,18 @@ export const pagesConfig: PageItem[] = [
       },
     ]
   },
+  {
+    title: "Alan Wake",
+    background: "#000000",
+    tilesPerPage: 1,
+    games: [
+      {
+        id: 26,
+        title: 'Alan Wake 2',
+        category: 'aant spelen',
+        rating: 5,
+        iconPath: '/fav-games/images/alanwake2.jpg',
+      },
+    ]
+  },
 ];
