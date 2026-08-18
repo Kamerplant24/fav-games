@@ -4,7 +4,7 @@ export interface Game {
   category: string;
   rating: number;
   iconPath?: string;
-  highlightTitle?: {
+  badge?: {
     text: string;
     color: string;
   };
@@ -235,7 +235,7 @@ export const pagesConfig: PageItem[] = [
         title: 'Reanimal (08/ʼ26)',
         category: 'vage story (bijna geen) maar na achteraf op te zoeken snap je het, coole vibe en monsters, leuke puzzels',
         rating: 6.5,
-        highlightTitle: {
+        badge: {
           text: '(08/ʼ26)',
           color: '#ffd700'
         },
