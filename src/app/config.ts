@@ -3,7 +3,11 @@ export interface Game {
   title: string;
   category: string;
   rating: number;
-  iconPath?: string; // Optional path to custom icon
+  iconPath?: string;
+  highlightTitle?: {
+    text: string;
+    color: string;
+  };
 }
 
 export interface FrontPageConfig {
@@ -210,7 +214,7 @@ export const pagesConfig: PageItem[] = [
   {
     title: "Split-Screen Games",
     background: "#000000", // black
-    tilesPerPage: 2,
+    tilesPerPage: 3,
     games: [
       {
         id: 18,
@@ -231,6 +235,10 @@ export const pagesConfig: PageItem[] = [
         title: 'Reanimal (08/ʼ26)',
         category: 'vage story (bijna geen) maar na achteraf op te zoeken snap je het, coole vibe en monsters, leuke puzzels',
         rating: 6.5,
+        highlightTitle: {
+          text: 'It',
+          color: '#ffd700'
+        },
         iconPath: '/fav-games/images/reanimal.jpg',
       },
     ]
