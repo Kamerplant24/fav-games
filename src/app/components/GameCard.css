@@ -41,7 +41,7 @@
   z-index: 2;
 }
 
-.textBox > .text {
+.textBox .head {
   font-weight: bold;
   margin: 0;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
@@ -53,12 +53,12 @@
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
-.textBox > .price {
+.textBox .price {
   font-size: 20px;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
-.textBox > span {
+.textBox span {
   font-size: 14px;
   color: lightgrey;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
