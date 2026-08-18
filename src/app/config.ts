@@ -236,7 +236,7 @@ export const pagesConfig: PageItem[] = [
         category: 'vage story (bijna geen) maar na achteraf op te zoeken snap je het, coole vibe en monsters, leuke puzzels',
         rating: 6.5,
         highlightTitle: {
-          text: 'It',
+          text: '(08/ʼ26)',
           color: '#ffd700'
         },
         iconPath: '/fav-games/images/reanimal.jpg',
