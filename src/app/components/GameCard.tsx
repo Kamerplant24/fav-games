@@ -9,6 +9,10 @@ export interface Game {
   category: string;
   rating: number;
   iconPath?: string;
+  badge?: {
+    text: string;
+    color: string;
+  };
 }
 
 interface GameCardProps {
@@ -52,18 +56,14 @@ export function GameCard({ game }: GameCardProps) {
       <div className="game-card">
         {renderIcon()}
         <div className="textBox">
-          <p className="text head">
-            {game.highlightTitle ? (
-              <>
-                <span style={{ color: game.highlightTitle.color }}>
-                  {game.highlightTitle.text}
-                </span>
-                {game.title.replace(game.highlightTitle.text, '')}
-              </>
-            ) : (
-              game.title
+          <div>
+            {game.badge && (
+              <div className="title-badge" style={{ background: game.badge.color, color: '#000', padding: '2px 6px', borderRadius: 4, display: 'inline-block', marginBottom: 6 }}>
+                {game.badge.text}
+              </div>
             )}
-          </p>
+            <p className="text head">{game.title}</p>
+          </div>
           <span>{game.category}</span>
           <p className="text price">{game.rating}/10</p>
         </div>
