@@ -56,7 +56,7 @@ export function GameCard({ game }: GameCardProps) {
       <div className="game-card">
         {renderIcon()}
         <div className="textBox">
-          <div>
+          <div className="title-stack">
             {game.badge && (
               <div className="title-badge" style={{ background: game.badge.color }}>
                 {game.badge.text}
