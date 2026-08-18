@@ -62,7 +62,7 @@ export function GameCard({ game }: GameCardProps) {
                 {game.badge.text}
               </div>
             )}
-            <p className="text head">
+            <p className="text head" style={{ fontSize: '24px', lineHeight: 1.2 }}>
               {game.badge ? game.title.replace(game.badge.text, '') : game.title}
             </p>
           </div>
