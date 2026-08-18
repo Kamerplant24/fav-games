@@ -226,6 +226,13 @@ export const pagesConfig: PageItem[] = [
         rating: 8.5,
         iconPath: '/fav-games/images/awayout.jpg',
       },
+      {
+        id: 19,
+        title: 'Reanimal (08/ʼ26)',
+        category: 'vage story (bijna geen) maar na achteraf op te zoeken snap je het, coole vibe en monsters, leuke puzzels',
+        rating: 6.5,
+        iconPath: '/fav-games/images/reanimal.jpg',
+      },
     ]
   },
   {
