@@ -58,11 +58,11 @@ export function GameCard({ game }: GameCardProps) {
         <div className="textBox">
           <div>
             {game.badge && (
-              <div className="title-badge" style={{ background: game.badge.color, color: '#000', padding: '2px 6px', borderRadius: 4, display: 'inline-block', marginBottom: 6 }}>
+              <div className="title-badge" style={{ background: game.badge.color }}>
                 {game.badge.text}
               </div>
             )}
-            <p className="text head" style={{ fontSize: '24px', lineHeight: 1.2 }}>
+            <p className="text head">
               {game.badge ? game.title.replace(game.badge.text, '') : game.title}
             </p>
           </div>
