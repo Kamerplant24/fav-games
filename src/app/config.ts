@@ -245,7 +245,7 @@ export const pagesConfig: PageItem[] = [
   },
   {
     title: "The Last of Us",
-    background: "#000000", // black
+    background: "#000000",
     tilesPerPage: 2,
     games: [
       {
