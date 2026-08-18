@@ -342,8 +342,8 @@ export const pagesConfig: PageItem[] = [
       {
         id: 26,
         title: 'Alan Wake 2',
-        category: 'aant spelen',
-        rating: 5,
+        category: 'origineel idee, ok einde, goede spanningsopbouw en soundeffects, rare overgang irl deeltjes en ingame deeltjes, geen spel voor hartpatiënten',
+        rating: 8.7,
         iconPath: '/fav-games/images/alanwake2.jpg',
       },
     ]
