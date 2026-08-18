@@ -62,7 +62,9 @@ export function GameCard({ game }: GameCardProps) {
                 {game.badge.text}
               </div>
             )}
-            <p className="text head">{game.title}</p>
+            <p className="text head">
+              {game.badge ? game.title.replace(game.badge.text, '') : game.title}
+            </p>
           </div>
           <span>{game.category}</span>
           <p className="text price">{game.rating}/10</p>
