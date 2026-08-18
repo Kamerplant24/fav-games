@@ -165,7 +165,7 @@ export const pagesConfig: PageItem[] = [
         title: 'Firewatch',
         category: 'zomer 2025 vibes, mooie graphics, leuk, kort',
         rating: 8.5,
-        iconPath: '/fav-games/images/firewatch.jpg', // Empty = use default Ethereum icon
+        iconPath: '/fav-games/images/firewatch.jpg',
       },
     ]
   },
