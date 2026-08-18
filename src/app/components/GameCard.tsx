@@ -52,7 +52,18 @@ export function GameCard({ game }: GameCardProps) {
       <div className="game-card">
         {renderIcon()}
         <div className="textBox">
-          <p className="text head">{game.title}</p>
+          <p className="text head">
+            {game.highlightTitle ? (
+              <>
+                <span style={{ color: game.highlightTitle.color }}>
+                  {game.highlightTitle.text}
+                </span>
+                {game.title.replace(game.highlightTitle.text, '')}
+              </>
+            ) : (
+              game.title
+            )}
+          </p>
           <span>{game.category}</span>
           <p className="text price">{game.rating}/10</p>
         </div>
