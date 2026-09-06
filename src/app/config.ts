@@ -101,21 +101,21 @@ export const pagesConfig: PageItem[] = [
         id: 8,
         title: 'Tomb Raider',
         category: 'beste combat, sluipen, goeie story',
-        rating: 9,
+        rating: 9.1,
         iconPath: '/fav-games/images/tombraider.jpg',
       },
       {
         id: 9,
         title: 'Rise of the Tomb Raider',
         category: 'beste combat, sluipen, goeie story',
-        rating: 9,
+        rating: 9.1,
         iconPath: '/fav-games/images/riseofthetombraider.png',
       },
       {
         id: 10,
         title: 'Shadow of the Tomb Raider',
         category: 'beste combat, sluipen, goeie story',
-        rating: 9,
+        rating: 9.1,
         iconPath: '/fav-games/images/shadowofthetombraider.jpg',
       },
     ]
@@ -345,6 +345,20 @@ export const pagesConfig: PageItem[] = [
         category: 'origineel idee, ok einde, goede spanningsopbouw en soundeffects, rare overgang irl deeltjes en ingame deeltjes, geen spel voor hartpatiënten',
         rating: 8.7,
         iconPath: '/fav-games/images/alanwake2.jpg',
+      },
+    ]
+  },
+  {
+    title: "Detroit: Become Human",
+    background: "#000000",
+    tilesPerPage: 1,
+    games: [
+      {
+        id: 26,
+        title: 'Detroit: Become Human',
+        category: 'cool dat je het verhaal kunt bepalen, je geeft veel om de karakters, goed einde, alles is interactief ook het main menu',
+        rating: 9,
+        iconPath: '/fav-games/images/detroitbecomehuman.jpg',
       },
     ]
   },
