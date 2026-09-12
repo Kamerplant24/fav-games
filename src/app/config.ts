@@ -172,14 +172,25 @@ export const pagesConfig: PageItem[] = [
   {
     title: "Resident Evil",
     background: "#000000", // black
-    tilesPerPage: 1,
+    tilesPerPage: 2,
     games: [
       {
         id: 15,
         title: 'Resident Evil 7: Biohazard',
         category: 'ok story, goed einde, goede graphics',
         rating: 7,
-        iconPath: '/fav-games/images/residentevil7.jpg', // Empty = use default Ethereum icon
+        iconPath: '/fav-games/images/residentevil7.jpg',
+      },
+      {
+        id: 15,
+        title: 'Resident Evil 8: Village',
+        category: 'ik vond hem beter als de vorige omdat ik de story beter kon volgen, ik vond het echt wel een engaging verhaal, soms oprecht eng, leuke puzzels',
+        rating: 7.8,
+        badge: {
+          text: '(09/ʼ26)',
+          color: '#ffd700'
+        },
+        iconPath: '/fav-games/images/re8.jpg',
       },
     ]
   },
