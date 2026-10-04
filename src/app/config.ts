@@ -190,7 +190,7 @@ export const pagesConfig: PageItem[] = [
           text: '(09/ʼ26)',
           color: '#ffd700'
         },
-        iconPath: '/fav-games/images/re8.jpg',
+        iconPath: '/fav-games/images/residentevil8.jpg',
       },
     ]
   },
