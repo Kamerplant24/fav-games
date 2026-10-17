@@ -172,7 +172,7 @@ export const pagesConfig: PageItem[] = [
   {
     title: "Resident Evil",
     background: "#000000", // black
-    tilesPerPage: 2,
+    tilesPerPage: 3,
     games: [
       {
         id: 15,
