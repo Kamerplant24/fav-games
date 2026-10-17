@@ -192,6 +192,17 @@ export const pagesConfig: PageItem[] = [
         },
         iconPath: '/fav-games/images/residentevil8.jpg',
       },
+            {
+        id: 15,
+        title: 'Resident Evil 9: Requiem',
+        category: 'oprecht goed, leuke mix van karakters, leuke gameplay',
+        rating: 7.7,
+        badge: {
+          text: '(10/ʼ26)',
+          color: '#ffd700'
+        },
+        iconPath: '/fav-games/images/residentevil9.jpg',
+      },
     ]
   },
   {
